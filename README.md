@@ -6,7 +6,7 @@ This is a TensorFlow implementation of Two-Stream Graph Convolutional Networks f
 
 The code is developed based on the TensorFlow framework and the Graph Convolutional Network (GCN) repo [GCN](https://github.com/tkipf/gcn) and [zero-shot-gcn](https://github.com/JudyYe/zero-shot-gcn).
 
-![](https://drive.google.com/open?id=17zsx_B2j4i-jfCFgx3X3KCjU3wLSpLzY)
+![](https://i.imgur.com/Z1SDVuU.png)
 
 
 ## Prerequisite
