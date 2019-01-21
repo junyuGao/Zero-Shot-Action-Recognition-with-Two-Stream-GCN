@@ -7,7 +7,7 @@ This is a TensorFlow implementation of Two-Stream Graph Convolutional Networks f
 The code is developed based on the TensorFlow framework and the Graph Convolutional Network (GCN) repo [GCN](https://github.com/tkipf/gcn) and [zero-shot-gcn](https://github.com/JudyYe/zero-shot-gcn).
 
 
-##Prerequisite
+## Prerequisite
 
 - Construct a python enviorment with python3.6 
 - Install TensorFlow >= 1.2.0
@@ -18,21 +18,23 @@ The code is developed based on the TensorFlow framework and the Graph Convolutio
 	- pip install networkx
 
 
-##Dataset Preparation
+## Dataset Preparation
+
 The processed data of [UCF101](http://crcv.ucf.edu/data/UCF101.php) can be downloaded from [Google Driver](https://drive.google.com/open?id=1-ICJ-ruQzIIXx2Rh1GXEX7wkse809OM5).
 After downloading the file, unzip it to the folder ./
 
 
-##Run the demo
+## Run the demo
+
 ```
 python train_two_stream_gcn.py
 ```
 
 The above code will automatically train the two-stream GCN model on UCF101 dataset. The test accuracies will be outputted for each training epoch.
 
-##Cite
-Please cite our paper if you use this code in your own work:
+## Cite
 
+Please cite our paper if you use this code in your own work:
 
 ```
 @inproceedings{junyu2019AAAI_TS-GCN,
