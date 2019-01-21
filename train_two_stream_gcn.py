@@ -41,9 +41,6 @@ flags.DEFINE_string('save_path', './output_models/', 'save dir')
 flags.DEFINE_integer('epochs', 5, 'Number of epochs to train.')
 flags.DEFINE_integer('hidden1', 2048, 'Number of units in hidden layer 1.')# 2048, 1024, 512, 300
 flags.DEFINE_integer('hidden2', 1024, 'Number of units in hidden layer 1.')
-# flags.DEFINE_integer('hidden3', 512, 'Number of units in hidden layer 1.')
-# flags.DEFINE_integer('hidden4', 1024, 'Number of units in hidden layer 1.')
-# flags.DEFINE_integer('hidden5', 512, 'Number of units in hidden layer 1.')
 flags.DEFINE_float('dropout', 0.5, 'Dropout rate (1 - keep probability).')
 flags.DEFINE_float('weight_decay', 5e-4, 'Weight for L2 loss on embedding matrix.')
 flags.DEFINE_integer('early_stopping', 10, 'Tolerance for early stopping (# of epochs).')
@@ -164,7 +161,6 @@ result_file_name = result_save_path + FLAGS.dataset + '_' + FLAGS.w2v_type + '_'
                     + str(FLAGS.hidden2) + '.txt'
 
 # Train model
-# model.load(sess=sess)
 now_lr = FLAGS.learning_rate
 y_train = np.array(y_train)
 idx_train = np.array(idx_train)
