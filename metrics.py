@@ -159,17 +159,3 @@ def fn_false():
 
 
 
-
-# def transductive_true(raw_score_per_action, mask):
-#     loss = tf.nn.softmax(raw_score_per_action)
-#     mask /= tf.reduce_mean(mask)
-#     loss *= mask
-#     loss = -loss
-#     return loss
-#
-# def transductive_false(raw_score_per_action, mask, label):
-#     loss = tf.nn.softmax_cross_entropy_with_logits(logits=raw_score_per_action, labels=label)
-#     mask /= tf.reduce_mean(mask)
-#     loss *= mask
-#     return loss
-
